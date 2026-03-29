@@ -8,7 +8,7 @@ Curated X (Twitter) lists. Each list is a focused feed of high-signal accounts i
 
 Individual researchers and engineers building AI systems.
 
-@karpathy, @tri_dao, @natolambert, @cwolferesearch, @rasbt, @hardmaru, @swyx, @hendrycks, @_jasonwei, @NoamShazeer, @fchollet, @ilyasut, @ylecun, @geoffreyhinton, @demishassabis, @ShaneLegg, @goodfellow_ian, @quocleix, @drfeifei, @lilianweng, @polynoamial, @denny_zhou, @OriolVinyalsML, @sedielem, @DaniloJRezende, @poolio, @janexwang, @jalayrac, @bousmalis, @tejasdkulkarni, @_rockt, @soumithchintala, @fhuszar, @hugo_larochelle, @ryan_p_adams, @rsalakhu, @nalkalc, @johnplattml, @tdietterich, @SebastienBubeck, @yoavgo, @arankomatsuzaki, @_akhaliq, @syhw, @MirowskiPiotr, @NandoDF, @lawrennd, @chrmanning, @jurafsky, @haldaume3, @gneubig, @guestrin, @FrankRHutter, @JoakimNivre, @pmddomingos, @mmitchell_ai, @ch402, @earnmyturns, @matei_zaharia, @ctnzr, @SchmidhuberAI, @RichardSocher, @JeffDean, @erichorvitz, @erikbryn, @iamtrask, @bernhardsson, @eyvindn, @dgillblad, @FakePsyho, @clattner_llvm, @janleike, @emollick, @goodside, @davidchalmers42, @FredrikHeintz, @antonosika, @yoheinakajima, @Yulun_Du, @_LuoFuli, @lossfunk, @jarredsumner, @maxkirkby
+@karpathy, @tri_dao, @natolambert, @cwolferesearch, @rasbt, @hardmaru, @swyx, @hendrycks, @_jasonwei, @NoamShazeer, @fchollet, @ilyasut, @ylecun, @geoffreyhinton, @demishassabis, @ShaneLegg, @goodfellow_ian, @quocleix, @drfeifei, @lilianweng, @polynoamial, @denny_zhou, @OriolVinyalsML, @sedielem, @DaniloJRezende, @poolio, @janexwang, @jalayrac, @bousmalis, @tejasdkulkarni, @_rockt, @soumithchintala, @fhuszar, @hugo_larochelle, @ryan_p_adams, @rsalakhu, @nalkalc, @johnplattml, @tdietterich, @SebastienBubeck, @yoavgo, @arankomatsuzaki, @_akhaliq, @syhw, @MirowskiPiotr, @NandoDF, @lawrennd, @chrmanning, @jurafsky, @haldaume3, @gneubig, @guestrin, @FrankRHutter, @JoakimNivre, @pmddomingos, @mmitchell_ai, @ch402, @earnmyturns, @matei_zaharia, @ctnzr, @SchmidhuberAI, @RichardSocher, @JeffDean, @erichorvitz, @erikbryn, @iamtrask, @bernhardsson, @eyvindn, @dgillblad, @FakePsyho, @clattner_llvm, @janleike, @emollick, @goodside, @davidchalmers42, @FredrikHeintz, @antonosika, @yoheinakajima
 
 ---
 
@@ -16,7 +16,7 @@ Individual researchers and engineers building AI systems.
 
 Organizations advancing AI research and deployment.
 
-@OpenAI, @AnthropicAI, @GoogleDeepMind, @GoogleAI, @MetaAI, @GenReasoning, @MSFTResearch, @MIT_CSAIL, @stanfordnlp, @icmlconf, @kognic_, @PyTorch, @jiqizhixin, @EpochAIResearch, @MistralAI, @nvidia, @xAI, @deepseek_ai, @Alibaba_Qwen, @DARPA
+@OpenAI, @AnthropicAI, @GoogleDeepMind, @GoogleAI, @Meta, @scale_AI, @MSFTResearch, @MIT_CSAIL, @stanfordnlp, @icmlconf, @kognic_, @PyTorch, @jiqizhixin, @EpochAIResearch, @MistralAI, @nvidia, @xAI, @deepseek_ai, @Alibaba_Qwen, @DARPA
 
 ---
 
@@ -80,4 +80,4 @@ Publications and media organizations covering tech and science.
 
 Journalists, analysts, and independent writers covering tech and AI.
 
-@KelseyTuoc, @_KarenHao, @willknight, @MMinevich, @MimiBilling, @karaswisher, @ingridlunden, @packyM, @lillianmli, @benedictevans, @a_m_mastroianni, @rmilneNordic, @adwooldridge, @LiYuan6, @johanknorberg, @scaling01, @dylan522p, @lexfridman, @ESYudkowsky, @GaryMarcus, @slatestarcodex, @benthompson, @gwern, @leopoldasch, @SemiAnalysis_, @IanCutress, @asianometry, @chipstrat, @crmiller1, @dwarkesh_sp
+@KelseyTuoc, @KarenHao, @willknight, @MMinevich, @MimiBilling, @karaswisher, @ingridlunden, @TrungTPhan, @packyM, @lillianmli, @benedictevans, @a_m_mastroianni, @rmilneNordic, @adwooldridge, @LiYuan6, @johanknorberg, @scaling01, @dylan522p, @lexfridman, @ESYudkowsky, @GaryMarcus, @slatestarcodex, @benthompson, @gwern, @leopoldasch, @SemiAnalysis, @IanCutress, @asianometry, @chipstrat, @crmiller1, @dwarkesh_sp
