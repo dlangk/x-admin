@@ -1,0 +1,582 @@
+@scaling01 — Lisan al Gaib
+@FakePsyho — Psyho
+@jgreyfriend — Grey
+@jiqizhixin — 机器之心 JIQIZHIXIN
+@TechTekedra — Tekedra N Mawakana
+@jarredsumner — Jarred Sumner
+@molly_g — Molly Graham
+@bcherny — Boris Cherny
+@jaynitx — Jaynit
+@systematicls — sysls
+@dylan522p — Dylan Patel
+@ChrisJBakke — Chris Bakke
+@aelluswamy — Ashok Elluswamy
+@tnachen — Timothy Chen
+@omead — Omead Afshar
+@robotaxi — Tesla Robotaxi
+@Tesla_AI — Tesla AI
+@antonosika — Anton Osika – eu/acc
+@ArfurRock — Arfur Rock
+@janleike — Jan Leike
+@NathanThinks — nathan lile
+@JohanJaveus — Johan Javeus
+@morrisseyjoe — Joe Morrissey
+@clattner_llvm — Chris Lattner
+@Modular — Modular
+@kyeandersson — Kye Andersson
+@bentossell — Ben Tossell
+@heyBarsee — Barsee 🐶
+@saranormous — sarah guo
+@andrew_n_carr — Andrew Carr 🤸
+@quocleix — Quoc Le
+@pabbeel — Pieter Abbeel
+@davidchalmers42 — David Chalmers
+@ankush_gola11 — Ankush Gola
+@karenxcheng — Karen X. Cheng
+@yoheinakajima — Yohei
+@mreflow — Matt Wolfe
+@emollick — Ethan Mollick
+@nickfloats — Nick St. Pierre
+@goodside — Riley Goodside
+@soundboy — Ian Hogarth
+@ESYudkowsky — Eliezer Yudkowsky ⏹️
+@lexfridman — Lex Fridman
+@KelseyTuoc — Kelsey Piper
+@slatestarcodex — Scott Alexander
+@jkronand — Joel Kronander
+@SebastienBubeck — Sebastien Bubeck
+@russelljkaplan — Russell Kaplan
+@ngaleforce — Noah Gale
+@acmurthy — Arun C Murthy
+@LangChain — LangChain
+@ByJohnnyLee — Johnny Lee
+@geoffreyhinton — Geoffrey Hinton
+@woj_zaremba — Wojciech Zaremba
+@qasar — Qasar Younis
+@nin_artificial — nin
+@EMostaque — Emad
+@paulg — Paul Graham
+@denny_zhou — Denny Zhou
+@patrickc — Patrick Collison
+@natfriedman — Nat Friedman
+@npew — Peter Welinder
+@johncutlefish — John Cutler
+@polynoamial — Noam Brown
+@DrJimFan — Jim Fan
+@Thom_Wolf — Thomas Wolf
+@a_m_mastroianni — Adam Mastroianni
+@JeffBezos — Jeff Bezos
+@olivercameron — Oliver Cameron
+@yoavgo — (((ل()(ل() 'yoav))))👾
+@MartinLorentzon — Martin Lorentzon
+@klarnaseb — Sebastian Siemiatkowski
+@HaddadNavid — Navid Haddad
+@arankomatsuzaki — Aran Komatsuzaki
+@_akhaliq — AK
+@ykilcher — Yannic Kilcher 🇸🇨
+@jalayrac — JB Alayrac
+@jasonyo — Jason Yosinski
+@vdbergrianne — Rianne van den Berg
+@bousmalis — Konstantinos Bousmalis
+@latentjasper — Jasper
+@poolio — Ben Poole
+@tejasdkulkarni — Tejas Kulkarni
+@_rockt — Tim Rocktäschel
+@chelseabfinn — Chelsea Finn
+@ilyasut — Ilya Sutskever
+@AnthropicAI — Anthropic
+@serkancabi — Serkan Cabi
+@TrungTPhan — Trung Phan
+@TechEmails — Internal Tech Emails
+@_KarenHao — Karen Hao
+@fermatslibrary — Fermat's Library
+@hdubugras — Henrique Dubugras
+@lilianweng — Lilian Weng
+@AmnaPir — Amna Pir
+@MahshidHelali — Mahshid Helali
+@oerich — Eric Knauss
+@SiaSearch — SiaSearch (now Scale Nucleus)
+@FrankRHutter — Frank Hutter
+@Jameswise — James Wise
+@ctnzr — Bryan Catanzaro
+@SchmidhuberAI — Jürgen Schmidhuber
+@deepenai — Deepen AI
+@emiliojorge_ — Emilio Jorge
+@ecarlsn — Emil Carlsson
+@packyM — Packy McCormick
+@lillianmli — Lillian Li
+@MichelWesther — Michel Westher
+@heartaerospace — Heart Aerospace
+@alexandr_wang — Alexandr Wang
+@Ljungman — Mattias Ljungman
+@ingridlunden — Ingrid
+@ValdemarL — Valdemar Lönnroth
+@drnovac — dragos novac
+@psawers — Paul Sawers
+@SebastianBlanco — Sebastian Blanco
+@AarianMarshall — Aarian Marshall
+@MMinevich — Mark Minevich
+@sohear — Steve O'Hear
+@MimiBilling — Mimi Billing
+@northzoneVC — Northzone
+@Maren_Bannon — Maren Bannon
+@sophiabendz — Sophia Bendz
+@mmartynas — Martynas
+@K_D_Simmons — Kristy Simmons
+@jlprendki — Dr. Jennifer Prendki
+@taehoonai — ✦
+@TheAIConf — TheAIConf
+@GjoaCLB — SquashplayerCA
+@exponentfm — Exponent Podcast
+@benthompson — Ben Thompson
+@stratechery — Stratechery
+@rbordoli — Robin Bordoli
+@gustavmaskowitz — Gustav Maskowitz
+@GoogleCloudTech — Google Cloud Tech
+@GoogleWorkspace — Google Workspace
+@meownessxx — meow 🐱
+@deeeepka — Deepka
+@YacineGhalim — Yacine Ghalim
+@maxniederhofer — Max Niederhofer ❤️‍🔥
+@HoverStatus — Hover Status
+@rebeckaangstrom — Rebecka Ångström
+@JohanHarvard — Johan Harvard
+@couch_patrick — Patrick Couch
+@macgirlsweden — Alexandra Kafka Larsson
+@combitech — Combitech
+@WestmanSanna — Sanna Westman
+@specht_p — Peter Specht
+@simonschmincke — Simon Schmincke
+@bjarkestaun — Bjarke Staun-Olsen
+@fritjofsson — 𝖢𝖺𝗋𝗅 𝖥𝗋𝗂𝗍𝗃𝗈𝖿𝗌𝗌𝗈𝗇 | 🤙
+@johanbrenner — Johan Brenner 🇺🇦
+@d_blomquist — Daniel Blomquist
+@shelgesson — Staffan Helgesson 🇺🇦
+@hackernews__ — News.YC
+@FHIOxford — Future of Humanity Institute
+@deep_thesis — DeepLearningThesis
+@chalmersuniv — Chalmers University of Technology
+@syhw — Gabriel Synnaeve
+@TensorFlow — TensorFlow
+@PyTorch — PyTorch
+@scale_AI — Scale AI
+@viktorsval — Viktors val
+@pmddomingos — Pedro Domingos
+@p1dgeon — filip
+@MarieWall1 — Marie Wall
+@agnesorstadius — Agnes Orstadius
+@kognic_ — Kognic
+@fBeiron — Fredrik Beiron
+@horken7 — Johan Larsson Hörkén
+@DennisNobelius — Dennis Nobelius
+@johnwetzel — John Wetzel
+@ZachFlom — Zach Flom
+@TELUSIntAI_DS — TELUS International AI Data Solutions
+@JeffDean — Jeff Dean
+@FLI_org — Future of Life Institute
+@_fredrik — Fredrik Cassel
+@stevesi — Steven Sinofsky
+@crowdgenbyappen — CrowdGen by Appen
+@l2k — Lukas Biewald
+@SamaAI — Sama
+@louicop — Louis Coppey
+@Docker — Docker
+@kubernetesio — Kubernetes
+@McKAnalytics — McKinsey Analytics
+@explosion_ai — Explosion
+@arxiv_cs_cl — cs.CL Papers
+@DeepLearningHub — Deep Learning Hub
+@einrideofficial — Einride
+@gwern — 𝔊𝔴𝔢𝔯𝔫
+@fchollet — François Chollet
+@clemensley — Clemens
+@bkrunner — Brian Krzanich
+@CodeWisdom — Programming Wisdom
+@CircleCI — CircleCI
+@fisherwebdev — Bill Fisher
+@ReactJSNews — ReactJS News
+@reactnative — React Native
+@reactjs — React
+@ste_grider — Stephen Grider
+@hillbergs — Staffan Hillberg
+@icmlconf — ICML Conference
+@ScalaFriends — Scala Friends
+@Dr_PO — Per Olof Arnäs
+@BarackObama — Barack Obama
+@RISEsweden — RISE
+@goodfellow_ian — Ian Goodfellow
+@ch402 — Chris Olah
+@RISE_SICS — RISE SICS
+@dgillblad — Daniel Gillblad
+@sheeraf — Sheera Frenkel
+@gdb — Greg Brockman
+@PrometheusIO — PrometheusMonitoring
+@TheresiaSH — Theresia Silander
+@MagnusBergman — Magnus Bergman
+@sagasustainable — Saga Jonsson
+@SenJohnMcCain — John McCain
+@JoakimNivre — Joakim Nivre
+@jsrailton — John Scott-Railton
+@richminer — Rich Miner
+@chris_biow — Christopher Biow
+@ericschmidt — Eric Schmidt
+@sundarpichai — Sundar Pichai
+@drfeifei — Fei-Fei Li
+@MirowskiPiotr — Piotr Mirowski @bsky.social
+@mustafasuleyman — Mustafa Suleyman
+@demishassabis — Demis Hassabis
+@lawrennd — Neil Lawrence
+@NandoDF — Nando de Freitas
+@ylecun — Yann LeCun
+@GoogleDeepMind — Google DeepMind
+@nalkalc — Nal
+@ryan_p_adams — Ryan Adams
+@hugo_larochelle — Hugo Larochelle
+@tdietterich — Thomas G. Dietterich
+@johnplattml — John Platt
+@rsalakhu — Russ Salakhutdinov
+@GoogleAI — Google AI
+@sedielem — Sander Dieleman
+@DaniloJRezende — Danilo J. Rezende
+@erichorvitz — Eric Horvitz
+@janexwang — Jane Wang
+@soumithchintala — Soumith Chintala
+@fhuszar — Ferenc Huszár
+@OriolVinyalsML — Oriol Vinyals
+@getfoxtype — FoxType
+@KTHuniversity — KTH Royal Institute of Technology
+@mitchellh — Mitchell Hashimoto
+@mmitchell_ai — MMitchell
+@j_gauthier — Jon Gauthier
+@tswaterman — Dr. Non-Linear
+@stefan_vhk — Stefan Gustavsson
+@LindauLindau — Linnea Lindau
+@_inesmontani — Ines Montani
+@NLTK_org — NLTK
+@spacy_io — spaCy
+@Joi — Joi Ito
+@Claudia_Olsson — Claudia Olsson
+@tathadas — Tathagata Das
+@holdenkarau — holden karau
+@deanwampler — Sic semper tyrannis
+@eli_schiff — Eli Schiff
+@Dagk — Dag Kittlaus
+@atpfm — Accidental Tech Podcast
+@caseyliss — Casey Liss
+@siracusa — John Siracusa
+@JonasLeijon — Jonas Leijonhufvud
+@willknight — Will Knight
+@guestrin — Carlos Guestrin
+@ilparone — Jarno M. Koponen
+@miha_jlo — Mihajlo Grbovic
+@GaryMarcus — Gary Marcus
+@randal_olson — Randy Olson
+@jackclarkSF — Jack Clark
+@randhindi — Rand
+@genekogan — Gene Kogan
+@davidwkenny — David Kenny
+@sebmarkbage — Sebastian Markbåge
+@AndrzejB52 — Andrzej Brud
+@basistechnology — BasisTech
+@OpenAI — OpenAI
+@stefanlundell — stefan lundell
+@miriamolsson — Miriam Olsson Jeffery
+@j_jakobsson — Josefin Jakobsson
+@viktorstrom — Viktor Ström
+@claudioguglieri — Claudio Guglieri
+@vanschneider — van Schneider
+@SlackHQ — Slack
+@FredrikHeintz — Fredrik Heintz
+@breakit_se — Breakit
+@danielg0ldberg — daniel goldberg
+@puffran — Sofia Ljungmark
+@MIT_CSAIL — MIT CSAIL
+@creandum — Creandum
+@OlleAronsson — Olle Aronsson
+@didigital_se — Di Digital
+@stingsthlm — Sting
+@SUP_46 — SUP
+@Klintcho — Andreas Klintberg
+@Raspberry_Pi — Raspberry Pi
+@niklaswicen — Niklas Wicén
+@BigDATAwireNews — BigDATAWire
+@XEng — Engineering
+@kryptera — Kryptera.se
+@rmilneNordic — Richard Milne
+@ProductHunt — Product Hunt 😸
+@ZetterbergUlf — Ulf Zetterberg
+@abt_programming — About Programming
+@ProtonPrivacy — Proton
+@andreasrolen — Andreas Rolén
+@ogrisel — Olivier Grisel
+@amuellerml — Andreas Mueller
+@WHOSTP44 — White House OSTP 44
+@FredrikHrstedt — Fredrik Hörstedt
+@moxie — Moxie Marlinspike
+@mailihammargren — Mai-Li Hammargren
+@dpatil — dj patil
+@xprize — XPRIZE
+@squarecog — Dmitriy Ryaboy 🇺🇸🇮🇱
+@lintool — Jimmy Lin
+@MikeCafarella — Michael Cafarella
+@MSFTResearch — Microsoft Research
+@garyvee — Gary Vaynerchuk
+@pierrelux — Pierre-Luc Bacon
+@karimatiyeh — Karim Atiyeh
+@emileifrem — Emil Eifrem
+@peterneubauer — Peter Neubauer
+@jesolem — Jan Erik Solem
+@KinbergBatra — Anna Kinberg Batra
+@marcoarment — Marco Arment
+@spolsky — Joel Spolsky
+@KodSnack — Kodsnack
+@GustavS — Gustav Söderström
+@jhagel — John Hagel
+@precisely — Precisely, Contracts automated
+@mitvcconference — MIT VC & Innovation
+@RobertGullander — Robert Gullander
+@rmetzger_ — Robert Metzger
+@dlwh — David Hall
+@ScalaNLP — Scala NLP
+@sirbonar — Sir Bonar Neville-K
+@patrikhson — Patrik Fältström
+@paulin_dan — Dan Paulin
+@netnod — Netnod
+@earnmyturns — Fernando Pereira
+@vkhosla — Vinod Khosla
+@iamtrask — ⿻ Andrew Trask
+@kashew — Kaspar Helldén
+@pmarca — Marc Andreessen 🇺🇸
+@fredwilson — Fred Wilson
+@pacoid — paco nathan
+@gavagai_corp — Gavagai
+@eldsjal — Daniel Ek
+@WWRob — Robert Monarch
+@satyanadella — Satya Nadella
+@jakeporway — Jake Porway
+@MikaelHolmstr — Mikael Holmström
+@TobiasBostrom — Tobias Boström
+@zen_habits — Leo Babauta
+@jaykreps — Jay Kreps
+@lousylinguist — thelousylinguist
+@mdreid — Mark Reid
+@emilymbender — @emilymbender.bsky.social
+@psresnik — Philip Resnik
+@chrmanning — Christopher Manning
+@jurafsky — Dan Jurafsky
+@TSchnoebelen — Tyler Schnoebelen
+@fastml — FastML
+@mljockers — Matthew Jockers
+@karpathy — Andrej Karpathy
+@haldaume3 — Hal Daumé III
+@gneubig — Graham Neubig
+@Allen_Schmaltz — Allen Schmaltz
+@mitultiwari — Mitul Tiwari
+@LinkedInEng — LinkedIn Engineering
+@erikbryn — Erik Brynjolfsson
+@petewarden — Pete Warden
+@andyhpalmer — Andy Palmer
+@Tamr_Inc — Tamr
+@radar — O'Reilly Radar
+@OReillyMedia — O'Reilly Media
+@matei_zaharia — Matei Zaharia
+@pwendell — Patrick Wendell
+@thisisdhaas — Daniel Haas
+@AnnaPJansson — Anna Jansson
+@sama — Sam Altman
+@RichardSocher — Richard Socher
+@stanfordnlp — Stanford NLP Group
+@sparud — sparud
+@reidhoffman — Reid Hoffman
+@bhorowitz — benahorowitz.eth
+@benedictevans — Benedict Evans
+@cutting — Doug Cutting
+@carlrivera — Carl Rivera
+@tryolabs — Tryolabs
+@wjzeng — Will Zeng
+@siliconvikings — Silicon Vikings (also on Blueskye and Threads)
+@gywilliams — Gen Williams
+@JoelEnquist — Joel ErikssonEnquist
+@Meta — Meta
+@lufritjofsson — Louise Fritjofsson
+@gustaf — Gustaf Alströmer
+@MrChrisJohnson — Chris Johnson
+@bernhardsson — Erik Bernhardsson
+@github — GitHub
+@iamdevloper — I Am Devloper
+@AndrewYNg — Andrew Ng
+@kaggle — Kaggle
+@DataJunkie — Ryan R. Rosario
+@mhausenblas — Michael Hausenblas
+@joe_hellerstein — Joe Hellerstein
+@BigData_ — Big Data, AI & Blockchain
+@DataconomyMedia — Dataconomy
+@johnmyleswhite — John Myles White
+@tim_kraska — Tim Kraska
+@michaelarmbrust — Michael Armbrust
+@rxin — Reynold Xin
+@golovashkin — Dmitry Golovashkin
+@bigmlcom — BigML
+@Haoyuan — Haoyuan (H.Y.) Li
+@TinyToCS — TinyToCS
+@amplab — AMPLab
+@evanrsparks — Evan Sparks
+@pbailis — Peter Bailis
+@StartupManage — Startup Management
+@Recode — Recode
+@singularityu — Singularity
+@singularityhub — Singularity Hub
+@karaswisher — Kara Swisher
+@MalinEstelli — Malin Estelli
+@amcafee — Andrew McAfee 🇺🇦
+@alansaid — Alan Said
+@databricks — Databricks
+@ApacheSpark — Apache Spark
+@pweiderholm — Petter Weiderholm
+@EmilStenstrom — Emil Stenström 🎛️
+@kdnuggets — KDnuggets
+@pebourne — Philip E. Bourne
+@neiltyson — Neil deGrasse Tyson
+@StephenAtHome — Stephen Colbert
+@petergudmundson — Peter Gudmundson
+@Porserud — Tobias Porserud
+@IBMwatsonx — IBM watsonx
+@Wallstiftelsen — AndersWallsStiftelse
+@andersbresell — Anders Bresell, PhD
+@torbjornhagglof — Torbjörn Hägglöf
+@ChalmersICT — Chalmers ICT
+@lenap61 — lena peterson
+@finkd — Mark Zuckerberg
+@tim_cook — Tim Cook
+@Aitellu — Aitellu
+@kohlschuetter — Dr. Christian Kohlschütter
+@chalmersTME — ChalmersTME
+@brianacton — Brian Acton
+@PeterSMagnusson — Peter
+@GoogleStartups — Google for Startups
+@kallus — Jonatan Kallus
+@EricssonLabs — Ericsson Research
+@lenamaartensson — Lena Mårtensson
+@sfwriter — Rachael King
+@DEbbevi — David Ebbevi
+@GustafTadaa — Gustaf Tadaa
+@davemcclure — Dave McClure
+@DElebring — David Elebring
+@philipfrick_ — Philip Frick
+@mattias_br — Mattias B R
+@Intize_Gbg — Intize
+@allthingsd — AllThingsD
+@Google_Sverige — Google Sverige
+@Google — Google
+@SCB_nyheter — SCB
+@ceciliauddenm — cecilia udden
+@strataconf — O'Reilly Strata Data & AI Conference
+@cloudera — Cloudera
+@fionaosaurusrex — Fiona 🍕
+@SirPatStew — Patrick Stewart
+@timberners_lee — Tim Berners-Lee
+@BillClinton — Bill Clinton
+@BillGates — Bill Gates
+@TeamPraescient — Praescient Analytics
+@StartupGrindSTO — Startup Grind Stockholm
+@CompSciFact — Computer Science
+@truve — Staffan Truvé
+@Anna_Ystroem — Anna Yström
+@jasonjmu — Jason Hines
+@Gartner_inc — Gartner
+@cahlberg — Christopher Ahlberg
+@DARPA — DARPA
+@RecordedFuture — Recorded Future
+@Spotify — Spotify
+@cdixon — Chris Dixon
+@svejoha — Johan Svensson
+@JohWendt — Johan Wendt
+@torbjornlundh — Torbjörn Lundh
+@TechCrunch — TechCrunch
+@ycombinator — Y Combinator
+@Valleywag — Valleywag
+@500GlobalVC — 500 Global
+@WIRED — WIRED
+@notch — notch
+@techreview — MIT Technology Review
+@venturehacks — Venture Hacks
+@VentureBeat — VentureBeat
+@GVteam — GV
+@oscarlsson — Oscar
+@a16z — a16z
+@Rodelius — Martin Rodelius
+@sequoia — Sequoia Capital
+@mynameisper — Per Clingweld
+@TheEconomist — The Economist
+@madeleine — Madeleine Albright
+@johanpaccamonti — Johan Paccamonti
+@dagensnyheter — Dagens Nyheter
+@carlbildt — Carl Bildt
+@LiYuan6 — Li Yuan袁莉
+@AstraZeneca — AstraZeneca
+@adwooldridge — Adrian Wooldridge
+@HillaryClinton — Hillary Clinton
+@K_GBergstrom — K-G Bergström
+@Pontifex266Arch — Pope Francis – ARCHIVE
+@Pontifex — Pope Leo XIV
+@WarrenBuffett — Warren Buffett
+@Frank_Underwood — Frank Underwood
+@sven43 — Sven Hagströmer
+@IsolaMonte — Kim IsolaMonte 🦄🎮🧜‍♀️
+@LinnEfsing — Linn Efsing
+@mo_oscar — Oscar Mo
+@ChalmersStudent — Chalmers Studentkår
+@jacob_lundberg — Jacob Lundberg
+@gunthermarder — Günther Mårder
+@Mattecentrum — Mattecentrum
+@Mitelman — Henrik Mitelman
+@vinnovase — Vinnova
+@IVA1919 — Kungl. Ingenjörsvetenskapsakademien, IVA
+@gustavborgefalk — Gustav Borgefalk
+@TorbjornNilsso — Torbjörn Nilsson
+@viktorbk — Viktor Barth-Kron
+@eyvindn — Eyvind Niklasson
+@tdstyret — tdstyret
+@lotrproject — Emil Johansson
+@magnussonhampus — Hampus Magnusson
+@frick — Anders Frick
+@SaraJMagnusson — Sara Anvarsson
+@MariaKWedel — Maria Knutson Wedel
+@PetterEverydh — Petter Everydh
+@rikardsteiber — Rikard Steiber
+@Clobbe — Clobbe Norman
+@chalmersnyheter — Chalmers
+@carincarlsson — Carin Carlsson
+@vetenskapoallm — Vetenskap & Allmänhet (Public & Science Sweden)
+@flangkilde — Fredrik Langkilde
+@ohlsont — Tomas Ohlson
+@CEE1983 — CEE
+@csvennberg — Cecilia Svennberg
+@Ingemyr — Ingemyr
+@csholmq — Sebastian Holmqvist
+@MarcusGidekull — Marcus Gidekull
+@forskarskolan — Rays -for excellence
+@amanda_s_tevell — Amanda Tevell
+@RedNilsson — Patric Nilsson
+@BjrnJnssn — Björn Jonsson
+@DalaiLama — Dalai Lama
+@liljeste — Emilia Liljeström
+@mattefnattek — Mathias Hammarberg
+@erikhedlund — Erik Hedlund
+@pwolodarski — Peter Wolodarski
+@timbro — Timbro
+@johanknorberg — Johan Norberg
+@EjohPhotography — Emil Johansson
+@dgottlander — Daniel Gottlander
+@alliansswe — Alliansen
+@matsknutson — Mats Knutson
+@perschlingmann — Per Schlingmann
+@louisewallin — Louise Wallin
+@SvDledare — SvD Ledare
+@gustavjoh — Gustav Johansson
+@gywillia — gywillia
+@ShaneLegg — Shane Legg
+@ungaforskare — Unga Forskare
+@bengtzboe — Erik Bengtzboe
+@liuhuanjim013 — cyborg
+@jasonsamuelsson — jasonsamuelsson
