@@ -40,7 +40,7 @@ Companies building robots and autonomous physical systems.
 
 Founders and executives running AI and tech companies.
 
-@sama, @gdb, @mustafasuleyman, @woj_zaremba, @npew, @alexandr_wang, @Thom_Wolf, @soundboy, @AndrewYNg, @l2k, @jackclarkSF, @patrickc, @natfriedman, @JeffBezos, @finkd, @tim_cook, @satyanadella, @eldsjal, @klarnaseb, @MartinLorentzon, @ericschmidt, @sundarpichai, @BillGates, @GustavS, @ChrisJBakke, @bentossell, @karimatiyeh, @cahlberg, @ankush_gola11, @DarioAmodei, @DanielaAmodei, @arthurmensch, @jimkxa, @AravSrinivas, @aidangomez, @elonmusk, @emileifrem, @jesolem, @truve, @evanrsparks, @pbailis
+@sama, @gdb, @mustafasuleyman, @woj_zaremba, @npew, @alexandr_wang, @Thom_Wolf, @soundboy, @AndrewYNg, @l2k, @jackclarkSF, @patrickc, @natfriedman, @JeffBezos, @finkd, @tim_cook, @satyanadella, @eldsjal, @klarnaseb, @MartinLorentzon, @ericschmidt, @sundarpichai, @BillGates, @GustavS, @ChrisJBakke, @bentossell, @karimatiyeh, @cahlberg, @ankush_gola11, @DarioAmodei, @DanielaAmodei, @arthurmensch, @jimkxa, @AravSrinivas, @aidangomez, @elonmusk, @emileifrem, @jesolem, @truve, @evanrsparks, @pbailis, @_chenglou, @rmetzger_
 
 ---
 
@@ -64,7 +64,7 @@ Venture capital firms.
 
 Friends and people I know personally.
 
-@jkronand, @drnovac, @JohanHarvard, @shelgesson, @kallus, @oscarlsson, @torbjornlundh, @johanpaccamonti, @flangkilde, @liuhuanjim013, @rikardsteiber, @forskarskolan, @ZachFlom, @joe_hellerstein, @JoelEnquist, @chalmersuniv, @IVA1919
+@jkronand, @drnovac, @JohanHarvard, @shelgesson, @kallus, @oscarlsson, @torbjornlundh, @johanpaccamonti, @flangkilde, @liuhuanjim013, @rikardsteiber, @forskarskolan, @ZachFlom, @joe_hellerstein, @JoelEnquist, @chalmersuniv, @IVA1919, @OliverMolander
 
 ---
 
@@ -80,4 +80,4 @@ Publications and media organizations covering tech and science.
 
 Journalists, analysts, and independent writers covering tech and AI.
 
-@KelseyTuoc, @KarenHao, @willknight, @MMinevich, @MimiBilling, @karaswisher, @ingridlunden, @packyM, @lillianmli, @benedictevans, @a_m_mastroianni, @rmilneNordic, @adwooldridge, @LiYuan6, @johanknorberg, @scaling01, @dylan522p, @lexfridman, @ESYudkowsky, @GaryMarcus, @slatestarcodex, @benthompson, @gwern, @leopoldasch, @SemiAnalysis, @IanCutress, @asianometry, @chipstrat, @crmiller1, @dwarkesh_sp
+@KelseyTuoc, @_KarenHao, @willknight, @MMinevich, @MimiBilling, @karaswisher, @ingridlunden, @packyM, @lillianmli, @benedictevans, @a_m_mastroianni, @rmilneNordic, @adwooldridge, @LiYuan6, @johanknorberg, @scaling01, @dylan522p, @lexfridman, @ESYudkowsky, @GaryMarcus, @slatestarcodex, @benthompson, @gwern, @leopoldasch, @SemiAnalysis_, @IanCutress, @asianometry, @chipstrat, @crmiller1, @dwarkesh_sp

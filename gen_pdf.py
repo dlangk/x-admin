@@ -1,375 +1,55 @@
 #!/usr/bin/env python3
-"""Generate a PDF of @langkilde's X following, organized by category."""
+"""Generate a PDF of @langkilde's X following, organized by list. Excludes personal list."""
 
+import re
 from pathlib import Path
 
-# --- Data: 295 accounts organized by category (personal list excluded) ---
+EXCLUDE_LISTS = {"personal"}
 
-categories = [
-    (
-        "AI & Machine Learning Researchers",
-        [
-            "@leopoldasch — Leopold Aschenbrenner",
-            "@hendrycks — Dan Hendrycks",
-            "@tri_dao — Tri Dao",
-            "@svlevine — Sergey Levine",
-            "@rasbt — Sebastian Raschka",
-            "@NoamShazeer — Noam Shazeer",
-            "@natolambert — Nathan Lambert",
-            "@hardmaru",
-            "@ericjang11 — Eric Jang",
-            "@EpochAIResearch — Epoch AI",
-            "@cwolferesearch — Cameron R. Wolfe",
-            "@ilyasut — Ilya Sutskever",
-            "@ylecun — Yann LeCun",
-            "@geoffreyhinton — Geoffrey Hinton",
-            "@karpathy — Andrej Karpathy",
-            "@goodfellow_ian — Ian Goodfellow",
-            "@ch402 — Chris Olah",
-            "@sama — Sam Altman",
-            "@DarioAmodei",
-            "@DanielaAmodei",
-            "@gdb — Greg Brockman",
-            "@npew — Peter Welinder",
-            "@polynoamial — Noam Brown",
-            "@DrJimFan — Jim Fan",
-            "@Thom_Wolf — Thomas Wolf",
-            "@a_m_mastroianni — Adam Mastroianni",
-            "@vdbergrianne — Rianne van den Berg",
-            "@bousmalis — Konstantinos Bousmalis",
-            "@poolio — Ben Poole",
-            "@tejasdkulkarni",
-            "@_rockt — Tim Rocktaschel",
-            "@chelseabfinn — Chelsea Finn",
-            "@lilianweng — Lilian Weng",
-            "@FrankRHutter — Frank Hutter",
-            "@ctnzr — Bryan Catanzaro",
-            "@SchmidhuberAI — Jurgen Schmidhuber",
-            "@arankomatsuzaki",
-            "@_akhaliq — AK",
-            "@ykilcher — Yannic Kilcher",
-            "@jalayrac — JB Alayrac",
-            "@jasonyo — Jason Yosinski",
-            "@hugo_larochelle — Hugo Larochelle",
-            "@tdietterich — Thomas G. Dietterich",
-            "@johnplattml — John Platt",
-            "@rsalakhu — Russ Salakhutdinov",
-            "@sedielem — Sander Dieleman",
-            "@DaniloJRezende",
-            "@erichorvitz — Eric Horvitz",
-            "@janexwang — Jane Wang",
-            "@soumithchintala",
-            "@fhuszar — Ferenc Huszar",
-            "@OriolVinyalsML — Oriol Vinyals",
-            "@mmitchell_ai — MMitchell",
-            "@nalkalc — Nal",
-            "@ryan_p_adams — Ryan Adams",
-            "@SebastienBubeck",
-            "@woj_zaremba — Wojciech Zaremba",
-            "@haldaume3 — Hal Daume III",
-            "@gneubig — Graham Neubig",
-            "@erikbryn — Erik Brynjolfsson",
-            "@matei_zaharia — Matei Zaharia",
-            "@RichardSocher",
-            "@ESYudkowsky — Eliezer Yudkowsky",
-            "@ShaneLegg",
-            "@demishassabis — Demis Hassabis",
-            "@lawrennd — Neil Lawrence",
-            "@NandoDF — Nando de Freitas",
-            "@MirowskiPiotr",
-            "@iamtrask — Andrew Trask",
-            "@soundboy — Ian Hogarth",
-            "@goodside — Riley Goodside",
-            "@gwern",
-            "@fchollet — Francois Chollet",
-            "@icmlconf — ICML Conference",
-            "@guestrin — Carlos Guestrin",
-            "@GaryMarcus",
-            "@jackclarkSF — Jack Clark",
-            "@stanfordnlp — Stanford NLP Group",
-            "@chrmanning — Christopher Manning",
-            "@jurafsky — Dan Jurafsky",
-            "@physical_int — Physical Intelligence",
-            "@FLI_org — Future of Life Institute",
-            "@arxiv_cs_cl — cs.CL Papers",
-        ],
-    ),
-    (
-        "AI Companies & Labs",
-        [
-            "@AnthropicAI — Anthropic",
-            "@OpenAI",
-            "@xai — xAI",
-            "@deepseek_ai — DeepSeek",
-            "@MistralAI",
-            "@nvidia — NVIDIA",
-            "@GoogleAI — Google AI",
-            "@GoogleDeepMind — Google DeepMind",
-            "@GoogleCloudTech — Google Cloud Tech",
-            "@MSFTResearch — Microsoft Research",
-            "@AppliedInt — Applied Intuition",
-            "@SemiAnalysis_",
-            "@EpochAIResearch — Epoch AI",
-            "@Figure_robot — Figure",
-            "@Waymo",
-            "@robotaxi — Tesla Robotaxi",
-            "@Tesla_AI — Tesla AI",
-            "@aurora_inno — Aurora",
-            "@scale_AI — Scale AI",
-            "@PyTorch",
-            "@Modular",
-            "@Alibaba_Qwen — Qwen",
-            "@1x_tech",
-            "@MIT_CSAIL — MIT CSAIL",
-            "@creandum — Creandum",
-            "@kognic_ — Kognic",
-        ],
-    ),
-    (
-        "Tech Founders & Executives",
-        [
-            "@eladgil — Elad Gil",
-            "@wolfejosh — Josh Wolfe",
-            "@elonmusk",
-            "@DarioAmodei",
-            "@chris_urmson — Chris Urmson",
-            "@patrickc — Patrick Collison",
-            "@natfriedman — Nat Friedman",
-            "@bznotes — Bilal Zuberi",
-            "@redglassvc — Redglass.vc",
-            "@EclipseVenture",
-            "@LuxCapital",
-            "@arthurmensch — Arthur Mensch",
-            "@AravSrinivas — Aravind Srinivas",
-            "@aidangomez — Aidan Gomez",
-            "@_jasonwei — Jason Wei",
-            "@scaling01 — Lisan al Gaib",
-            "@FakePsyho — Psyho",
-            "@clattner_llvm — Chris Lattner",
-            "@l2k — Lukas Biewald",
-            "@louicop — Louis Coppey",
-            "@antonosika — Anton Osika",
-            "@janleike — Jan Leike",
-            "@BradPorter_",
-            "@emileifrem — Emil Eifrem",
-            "@karimatiyeh — Karim Atiyeh",
-            "@bernhardsson — Erik Bernhardsson",
-            "@gustaf — Gustaf Alstromer",
-            "@GustavS — Gustav Soderstrom",
-            "@eldsjal — Daniel Ek",
-            "@klarnaseb — Sebastian Siemiatkowski",
-            "@Ljungman — Mattias Ljungman",
-            "@MartinLorentzon",
-            "@hdubugras — Henrique Dubugras",
-            "@reidhoffman — Reid Hoffman",
-            "@bhorowitz — Ben Horowitz",
-            "@benedictevans — Benedict Evans",
-            "@wjzeng — Will Zeng",
-            "@JoelEnquist",
-            "@pmarca — Marc Andreessen",
-            "@fredwilson — Fred Wilson",
-            "@satyanadella — Satya Nadella",
-            "@AndrewYNg — Andrew Ng",
-            "@vkhosla — Vinod Khosla",
-            "@cdixon — Chris Dixon",
-            "@github — GitHub",
-            "@a16z",
-            "@sequoia — Sequoia Capital",
-            "@saranormous — Sarah Guo",
-            "@quocleix — Quoc Le",
-            "@pabbeel — Pieter Abbeel",
-            "@ankush_gola11 — Ankush Gola",
-            "@yoheinakajima — Yohei",
-            "@emollick — Ethan Mollick",
-            "@JohanHarvard",
-            "@simonschmincke",
-            "@Maren_Bannon",
-            "@sophiabendz",
-            "@maxniederhofer",
-            "@bjarkestaun",
-            "@fritjofsson",
-            "@bentossell — Ben Tossell",
-            "@oscarlsson — Oscar",
-            "@ChrisJBakke — Chris Bakke",
-            "@aelluswamy — Ashok Elluswamy",
-            "@tnachen — Timothy Chen",
-            "@dylan522p — Dylan Patel",
-            "@jiqizhixin",
-            "@TechTekedra — Tekedra N Mawakana",
-            "@asianometry",
-        ],
-    ),
-    (
-        "Tech Podcasters, Writers & Media",
-        [
-            "@dwarkesh_sp — Dwarkesh Patel",
-            "@swyx",
-            "@lexfridman — Lex Fridman",
-            "@KelseyTuoc — Kelsey Piper",
-            "@slatestarcodex — Scott Alexander",
-            "@benthompson — Ben Thompson",
-            "@stratechery",
-            "@TechCrunch",
-            "@WIRED",
-            "@techreview — MIT Technology Review",
-            "@atpfm — Accidental Tech Podcast",
-            "@caseyliss — Casey Liss",
-            "@siracusa — John Siracusa",
-            "@willknight — Will Knight",
-            "@packyM — Packy McCormick",
-            "@_KarenHao — Karen Hao",
-            "@fermatslibrary — Fermat's Library",
-            "@chipstrat — Chipstrat",
-            "@IanCutress — Dr. Ian Cutress",
-            "@TechEmails — Internal Tech Emails",
-            "@psawers — Paul Sawers",
-            "@AarianMarshall — Aarian Marshall",
-            "@MimiBilling — Mimi Billing",
-            "@didigital_se — Di Digital",
-            "@breakit_se — Breakit",
-            "@rmilneNordic — Richard Milne",
-            "@ingridlunden — Ingrid",
-            "@drnovac — Dragos Novac",
-            "@LiYuan6 — Li Yuan",
-            "@adwooldridge — Adrian Wooldridge",
-        ],
-    ),
-    (
-        "Political & Public Figures",
-        [
-            "@BarackObama — Barack Obama",
-            "@HillaryClinton — Hillary Clinton",
-            "@BillClinton — Bill Clinton",
-            "@BillGates — Bill Gates",
-            "@WarrenBuffett",
-            "@JeffBezos — Jeff Bezos",
-            "@tim_cook — Tim Cook",
-            "@finkd — Mark Zuckerberg",
-            "@SenJohnMcCain — John McCain",
-            "@DalaiLama — Dalai Lama",
-            "@Pontifex — Pope Leo XIV",
-            "@Pontifex266Arch — Pope Francis (Archive)",
-            "@WHOSTP44 — White House OSTP 44",
-            "@carlbildt — Carl Bildt",
-            "@pwolodarski — Peter Wolodarski",
-            "@madeleine — Madeleine Albright",
-            "@dagensnyheter — Dagens Nyheter",
-            "@DARPA",
-            "@ericschmidt — Eric Schmidt",
-            "@sundarpichai — Sundar Pichai",
-            "@drfeifei — Fei-Fei Li",
-            "@mustafasuleyman — Mustafa Suleyman",
-        ],
-    ),
-    (
-        "Swedish / Nordic Tech & Media",
-        [
-            "@OlleAronsson",
-            "@shelgesson — Staffan Helgesson",
-            "@chalmersuniv — Chalmers University",
-            "@SvDledare — SvD Ledare",
-            "@K_GBergstrom — K-G Bergstrom",
-            "@IVA1919 — IVA",
-            "@viktorbk — Viktor Barth-Kron",
-            "@eyvindn — Eyvind Niklasson",
-            "@rikardsteiber — Rikard Steiber",
-            "@flangkilde — Fredrik Langkilde",
-            "@forskarskolan — Rays",
-            "@johanknorberg — Johan Norberg",
-            "@alliansswe — Alliansen",
-            "@matsknutson — Mats Knutson",
-            "@perschlingmann — Per Schlingmann",
-            "@johanpaccamonti — Johan Paccamonti",
-            "@johanbrenner — Johan Brenner",
-            "@fritjofsson",
-            "@bjarkestaun",
-            "@simonschmincke",
-            "@northzoneVC — Northzone",
-            "@viktorsval — Viktors val",
-            "@Dr_PO — Per Olof Arnas",
-            "@MartinLorentzon",
-            "@ZetterbergUlf — Ulf Zetterberg",
-            "@timbro — Timbro",
-            "@pwolodarski — Peter Wolodarski",
-            "@dagensnyheter — Dagens Nyheter",
-            "@didigital_se — Di Digital",
-            "@breakit_se — Breakit",
-            "@FredrikHeintz — Fredrik Heintz",
-            "@oscarlsson — Oscar",
-            "@creandum — Creandum",
-            "@maxniederhofer",
-            "@JohanHarvard",
-            "@Ljungman — Mattias Ljungman",
-            "@bengtzboe — Erik Bengtzboe",
-            "@liuhuanjim013 — Cyborg",
-            "@kognic_ — Kognic",
-        ],
-    ),
-    (
-        "Other Notable Follows",
-        [
-            "@chenglou — Cheng Lou",
-            "@paulg — Paul Graham",
-            "@denny_zhou — Denny Zhou",
-            "@qasar — Qasar Younis",
-            "@pbailis — Peter Bailis",
-            "@karaswisher — Kara Swisher",
-            "@databricks — Databricks",
-            "@Meta",
-            "@kallus — Jonatan Kallus",
-            "@cloudera — Cloudera",
-            "@truve — Staffan Truve",
-            "@cahlberg — Christopher Ahlberg",
-            "@torbjornlundh — Torbjorn Lundh",
-            "@syhw — Gabriel Synnaeve",
-            "@marcoarment — Marco Arment",
-            "@jhagel — John Hagel",
-            "@rmetzger — Robert Metzger",
-            "@earnmyturns — Fernando Pereira",
-            "@JoakimNivre — Joakim Nivre",
-            "@dgillblad — Daniel Gillblad",
-            "@davidchalmers42 — David Chalmers",
-            "@yoavgo",
-            "@jkronand — Joel Kronander",
-            "@joe_hellerstein — Joe Hellerstein",
-            "@evanrsparks — Evan Sparks",
-            "@sparud",
-            "@KinbergBatra — Anna Kinberg Batra",
-            "@_fredrik",
-            "@FakePsyho — Psyho",
-            "@scaling01 — Lisan al Gaib",
-            "@Jameswise — James Wise",
-            "@lillianmli — Lillian Li",
-            "@alexandr_wang — Alexandr Wang",
-            "@MMinevich — Mark Minevich",
-            "@jesolem — Jan Erik Solem",
-            "@vanschneider — Van Schneider",
-            "@claudioguglieri — Claudio Guglieri",
-            "@ZachFlom — Zach Flom",
-            "@Frank_Underwood — Frank Underwood",
-        ],
-    ),
-]
+# --- Parse lists.md ---
+lists: list[tuple[str, str, list[str]]] = []
+current_name = ""
+current_desc = ""
+current_handles: list[str] = []
 
-# --- Build text content ---
+for line in Path("lists.md").read_text().splitlines():
+    if line.startswith("## "):
+        if current_name:
+            lists.append((current_name, current_desc, current_handles))
+        current_name = line[3:].strip()
+        current_desc = ""
+        current_handles = []
+    elif current_name and not current_desc and line.strip() and not line.startswith("#") and not line.startswith("---"):
+        current_desc = line.strip()
+    elif current_name and line.strip().startswith("@"):
+        handles = [h.strip() for h in line.split(",") if h.strip()]
+        current_handles.extend(handles)
+
+if current_name:
+    lists.append((current_name, current_desc, current_handles))
+
+# Filter out excluded lists
+lists = [(n, d, h) for n, d, h in lists if n not in EXCLUDE_LISTS]
+
+# --- Build text ---
+total_unique: set[str] = set()
 lines: list[str] = []
-lines.append("@langkilde X (Twitter) Following")
+lines.append("@langkilde X (Twitter) Following — Organized by List")
 lines.append("Generated: 2026-03-29")
-lines.append("Total following: 295")
 lines.append("")
 
-total = 0
-for name, members in categories:
+for name, desc, handles in lists:
+    total_unique.update(h.lower() for h in handles)
     lines.append("=" * 60)
-    lines.append(f"  {name} ({len(members)})")
+    lines.append(f"  {name} ({len(handles)})")
+    lines.append(f"  {desc}")
     lines.append("=" * 60)
-    for m in members:
-        lines.append(f"  {m}")
+    for h in sorted(handles, key=str.lower):
+        lines.append(f"  {h}")
     lines.append("")
-    total += len(members)
 
-lines.append(f"Note: Some accounts appear in multiple categories.")
-lines.append(f"Total entries: {total} (295 unique accounts)")
+lines.insert(2, f"Total: {len(total_unique)} unique accounts (excl. personal)")
+lines.append("")
 
 text = "\n".join(lines)
 
@@ -407,4 +87,4 @@ for line in text.split("\n"):
         y = height - margin
 
 c.save()
-print(f"PDF written to {pdf_path}")
+print(f"PDF written to {pdf_path} ({len(total_unique)} unique accounts)")
